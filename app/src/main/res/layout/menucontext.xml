@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="160dp"
+    android:background="@color/backvi"
+    android:backgroundTintMode="add"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/oneId"
+            android:layout_width="@dimen/menucontext"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/spinnertextcolor"
+            android:text="1"
+            android:textColor="@color/textmenucolor" />
+
+        <Button
+            android:id="@+id/twoId"
+            android:layout_width="@dimen/menucontext"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/spinnertextcolor"
+            android:text="2"
+            android:textColor="@color/textmenucolor" />
+
+        <Button
+            android:id="@+id/threeId"
+            android:layout_width="@dimen/menucontext"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/spinnertextcolor"
+            android:text="3"
+            android:textColor="@color/textmenucolor" />
+
+        <Button
+            android:id="@+id/fourId"
+            android:layout_width="@dimen/menucontext"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/spinnertextcolor"
+            android:text="4"
+            android:textColor="@color/textmenucolor" />
+
+        <Button
+            android:id="@+id/fiveId"
+            android:layout_width="@dimen/menucontext"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/spinnertextcolor"
+            android:text="5"
+            android:textColor="@color/textmenucolor" />
+
+        <Button
+            android:id="@+id/checkId"
+            android:layout_width="@dimen/menucontext2"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/ok"
+            android:backgroundTintMode="screen" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/sixId"
+            android:layout_width="@dimen/menucontext"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/spinnertextcolor"
+            android:text="6"
+            android:textColor="@color/textmenucolor" />
+
+        <Button
+            android:id="@+id/sevenId"
+            android:layout_width="@dimen/menucontext"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/spinnertextcolor"
+            android:text="7"
+            android:textColor="@color/textmenucolor" />
+
+        <Button
+            android:id="@+id/eightId"
+            android:layout_width="@dimen/menucontext"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/spinnertextcolor"
+            android:text="8"
+            android:textColor="@color/textmenucolor" />
+
+        <Button
+            android:id="@+id/nineId"
+            android:layout_width="@dimen/menucontext"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/spinnertextcolor"
+            android:text="9"
+            android:textColor="@color/textmenucolor" />
+
+        <Button
+            android:id="@+id/zeroId"
+            android:layout_width="@dimen/menucontext"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/spinnertextcolor"
+            android:text="0"
+            android:textColor="@color/textmenucolor" />
+
+        <Button
+            android:id="@+id/delId"
+            android:layout_width="@dimen/menucontext2"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/del"
+            android:backgroundTintMode="add" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente4"
+    tools:context=".Activity.RecordsActivity">
+
+
+    <LinearLayout
+        android:id="@+id/CountPicturesLayout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/largeHeight"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/gradiente4"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pmProgress">
+
+        <TextView
+            android:id="@+id/CountPicturesIndicator"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gradiente"
+
+            android:padding="10dp"
+            android:text="@string/countpictures"
+
+            android:textColor="@color/spinnertextcolor"
+            android:textSize="@dimen/dimmenu"
+            android:textStyle="bold|italic" />
+
+        <RatingBar
+            android:id="@+id/ratingCP"
+            style="@android:style/Widget.Material.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:isIndicator="true"
+            android:max="5"
+            android:numStars="5"
+            android:progressTint="#54EC22"
+            android:stepSize="1" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/modeSelect3"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/gradiente"
+        app:layout_constraintBottom_toTopOf="@+id/imageTheme2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:id="@+id/TotalLayout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/largeHeight"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/gradiente4"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cpProgress">
+
+        <TextView
+            android:id="@+id/TotalIndicator"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gradiente"
+
+            android:padding="10dp"
+            android:text="@string/total"
+
+            android:textColor="@color/spinnertextcolor"
+            android:textSize="@dimen/dimmenu"
+            android:textStyle="bold|italic" />
+
+        <RatingBar
+            android:id="@+id/ratingTO"
+            style="@android:style/Widget.Material.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:isIndicator="true"
+            android:max="5"
+            android:numStars="5"
+            android:progressTint="#54EC22"
+            android:stepSize="1" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageTheme2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/gradiente"
+        android:contentDescription="imagem do anime"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/resetId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/PhotographicMemoryLayout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/largeHeight"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/gradiente4"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mgProgress">
+
+        <TextView
+            android:id="@+id/PhotographicMemoryIndicator"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gradiente"
+
+            android:padding="10dp"
+            android:text="@string/photographic"
+
+            android:textColor="@color/spinnertextcolor"
+            android:textSize="@dimen/dimmenu"
+            android:textStyle="bold|italic" />
+
+        <RatingBar
+            android:id="@+id/ratingPM"
+            style="@android:style/Widget.Material.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:isIndicator="true"
+            android:max="5"
+            android:numStars="5"
+            android:progressTint="#54EC22"
+            android:stepSize="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/gradiente"
+        android:padding="20dp"
+        android:text="@string/Records"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/spinnertextcolor"
+        android:textSize="@dimen/dimmenu"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/memoryGameLayout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/largeHeight"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/gradiente4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:id="@+id/MemoryGameIndicator"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gradiente"
+
+            android:padding="10dp"
+            android:text="@string/cards"
+
+            android:textColor="@color/spinnertextcolor"
+            android:textSize="@dimen/dimmenu"
+            android:textStyle="bold|italic" />
+
+        <RatingBar
+            android:id="@+id/ratingMG"
+            style="@android:style/Widget.Material.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:indeterminate="false"
+            android:isIndicator="true"
+            android:max="5"
+            android:numStars="0"
+            android:progressTint="#54EC22" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/resetId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/gradiente"
+        android:padding="20dp"
+        android:text="@string/resetRecords"
+        android:textColor="@color/spinnertextcolor"
+        android:textSize="@dimen/dimmenu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/gradiente"
+        app:layout_constraintBottom_toTopOf="@+id/modeSelect3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/mgProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradiente"
+        android:padding="5dp"
+        android:textColor="@color/spinnertextcolor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/memoryGameLayout" />
+
+    <TextView
+        android:id="@+id/pmProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradiente"
+        android:padding="5dp"
+        android:textColor="@color/spinnertextcolor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PhotographicMemoryLayout" />
+
+    <TextView
+        android:id="@+id/cpProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradiente"
+        android:padding="5dp"
+        android:textColor="@color/spinnertextcolor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CountPicturesLayout" />
+
+    <TextView
+        android:id="@+id/ttProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradiente"
+        android:padding="5dp"
+        android:textColor="@color/spinnertextcolor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TotalLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

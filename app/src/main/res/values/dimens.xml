@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="largeHeight">40dp</dimen>
+    <dimen name="dimenwidthmenu">140dp</dimen>
+    <dimen name="dimenTextmenu">18sp</dimen>
+    <!--
+    Because the window insets on round devices are larger than 15dp, this padding only applies
+    to square screens.
+    -->
+
+
+    <!--
+    This padding applies to both square and round screens. The total padding between the buttons
+    and the window insets is box_inset_layout_padding (above variable) on square screens and
+    inner_frame_layout_padding (below variable) on round screens.
+    -->
+
+    <dimen name="menucontext">40dp</dimen>
+    <dimen name="menucontext2">100dp</dimen>
+    <dimen name="titleDim">16sp</dimen>
+    <dimen name="dimmenu">14sp</dimen>
+    <dimen name="menudim">50dp</dimen>
+</resources>

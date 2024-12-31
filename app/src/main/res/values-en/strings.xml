@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messagereset">records reset</string>
+    <string name="time">Time</string>
+    <string name="titlead">Do you want to watch a video for another look?</string>
+    <string name="moreapps">More Apps</string>
+    <string name="negative">Not now</string>
+    <string name="MoreTips">Get More 2 Tips</string>
+    <string name="erro">wrong</string>
+    <string name="notUnblock">You haven\'t unlocked this level yet</string>
+    <string name="selectlevel">Level</string>
+    <string name="Avaliar">Rate This App</string>
+</resources>

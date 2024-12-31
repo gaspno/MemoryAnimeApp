@@ -1,0 +1,10 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/gradiente2"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:textColor="@color/textmenucolor"
+    android:textSize="18sp"
+    android:textStyle="bold|italic" />

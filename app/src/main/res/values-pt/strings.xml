@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memória Animes</string>
+    <string name="cards" translatable="false">Jogo da Memória</string>
+    <string name="countpictures" translatable="false">Contar Figuras</string>
+    <string name="hit" translatable="false">Acerto</string>
+    <string name="erros" translatable="false">Erros</string>
+    <string name="confirm" translatable="false">Confirme</string>
+    <string name="level" translatable="false">Nivel</string>
+    <string name="chance" translatable="false">Chances</string>
+    <string name="Go" translatable="false">Jogar</string>
+    <string name="Records" translatable="false">Recordes</string>
+    <string name="alert1" translatable="false">Preencha todos os campos</string>
+    <string name="alert2">Escolha o numero dessa imagem</string>
+    <string name="Victory">Vitória</string>
+    <string name="Defeat">Derrota</string>
+    <string name="MaxLevel">Parabéns você venceu o nível máximo</string>
+    <string name="alertadd">Assista um video para obter outra dica</string>
+    <string name="NextLevel">Próximo Nivel</string>
+    <string name="RepeatLevel">Repetir Nivel</string>
+    <string name="BackHome">Voltar ao início</string>
+    <string name="StatusPlayDefeat">Você perdeu esse nivel</string>
+    <string name="StatusPlayVictory">Excelente Memória</string>
+    <string name="LevelInit" translatable="false">0</string>
+    <string name="Theme">Selecione o Tema</string>
+    <string name="save">salvar configurações</string>
+    <string name="Settings">Configurações</string>
+    <string name="getTip">+Ajudas</string>
+    <string name="Tips">Ajudas</string>
+    <string name="yes">sim</string>
+    <string name="no">não</string>
+    <string name="titlereset">Você quer realmente resetar seus melhores resultados?</string>
+    <string name="resetRecords" translatable="false">Redefinir registros</string>
+    <string name="messagereset">recordes resetados</string>
+    <string name="time">Tempo</string>
+    <string name="tryAgain">sem conexão, tentar novamente?</string>
+    <string name="avaluation">Considere avaliar esse aplicativo</string>
+    <string name="negative">Agora não</string>
+    <string name="moreapps">More Apps</string>
+    <string name="titlead">Deseja assistir um video para outra olhada?</string>
+    <string name="erro">incorreto</string>
+    <string name="MoreTips" translatable="false">Obtenha mais 2 dicas</string>
+    <string name="photographic" translatable="false">Memória Fotográfica</string>
+    <string name="selectlevel">Nivel</string>
+    <string name="notUnblock" translatable="false">Você ainda não desbloqueou esse nivel</string>
+    <string name="Avaliar">Avalie este App</string>
+    <string name="Stars" translatable="false">Estrelas</string>
+</resources>

@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Animes Memory</string>
+
+    <string name="cards">Memory Game</string>
+    <string name="photographic">Photographic Memory</string>
+    <string name="countpictures">Count Pictures</string>
+
+    <string name="erros">errors</string>
+    <string name="confirm">Confirm</string>
+    <string name="level">level</string>
+    <string name="chance">attempts</string>
+    <string name="Go">Play</string>
+    <string name="LevelInit">0</string>
+    <string name="Records">Records</string>
+    <string name="Victory">Victory</string>
+    <string name="Defeat">Defeat</string>
+    <string name="MaxLevel">Congratulations you won the maximum level</string>
+    <string name="alert1">Fill in all fields</string>
+    <string name="alert2">Choose the number of this image</string>
+    <string name="alertadd">Watch a video for another tip</string>
+    <string name="NextLevel">Next Level</string>
+    <string name="RepeatLevel">Repeat Level</string>
+    <string name="StatusPlayVictory">RANK S</string>
+    <string name="StatusPlayDefeat">You lost that level</string>
+    <string name="BackHome">Back to Home</string>
+    <string name="Theme">Select Theme</string>
+    <string name="save">save settings</string>
+    <string name="initialvalue" translatable="false">1</string>
+    <string name="addTip" translatable="false">+</string>
+    <string name="initTip" translatable="false">1</string>
+    <string name="resetRecords">Reset Records</string>
+    <string name="Settings">Settings</string>
+    <string name="getTip">+Helps</string>
+    <string name="Tips">tips</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="titlereset">Do you really want to reset your best results?</string>
+    <string name="titlereset2">Do you really want to reset your all best results?</string>
+    <string name="messagereset">records reset</string>
+    <string name="time">Time</string>
+    <string name="Stars">Stars</string>
+    <string name="tryAgain">no connection, try again?</string>
+    <string-array name="options">
+        <item>4x3</item>
+        <item>4x4</item>
+        <item>5x4</item>
+        <item>6x4</item>
+        <item>6x5</item>
+        <item>6x6</item>
+        <item>7x6</item>;
+        <item>8x6</item>
+        <item>9x6</item>
+    </string-array>
+    <string-array name="mode">
+        <item>Challenge</item>
+        <item>Normal</item>
+
+
+    </string-array>
+    <string-array name="options2">
+        <item>2x2</item>
+        <item>2x3</item>
+        <item>3x3</item>
+        <item>3x4</item>
+        <item>4x4</item>
+        <item>4x5</item>
+        <item>5x5</item>
+    </string-array>
+    <string-array name="optionsGameImage">
+        <item>AnimeGirls</item>
+        <item>AnimeGirls2</item>
+        <item>AnimeIcons</item>
+        <item>AnimeSticks</item>
+        <item>Attack on Titan</item>
+        <item>Bleach</item>
+        <item>ChainsawMan</item>
+        <item>Code Geass</item>
+        <item>DeathNote</item>
+        <item>DemonSlayer</item>
+        <item>Evangelion</item>
+        <item>FateSeries</item>
+        <item>HunterXHunter</item>
+        <item>Kaguya-sama Love Is War</item>
+        <item>Jujutsu no Kaisen</item>
+        <item>Naruto</item>
+        <item>OnePiece</item>
+        <item>Re Zero</item>
+        <item>SwordArtOnline</item>
+        <item>The Rising of the Shield Hero</item>
+    </string-array>
+    <string-array name="options3">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>;
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="avaluation">Please consider rate this app</string>
+    <string name="negative">Not now</string>
+    <string name="moreapps">More Apps</string>
+    <string name="titlead">Do you want to watch a video for another look?</string>
+    <string name="app_id" translatable="false">69050252889</string>
+    <string name="erro">wrong</string>
+    <string name="MoreTips">Get More 2 Tips</string>
+    <string name="StatusPlayVictoryExcelent" translatable="false">RANK A</string>
+    <string name="StatusPlayVictoryGood" translatable="false">RANK B</string>
+    <string name="StatusPlayVictoryMedium" translatable="false">RANK C</string>
+    <string name="StatusPlayVictoryBad" translatable="false">RANK D</string>
+    <string name="selectlevel">Level</string>
+    <string name="notUnblock">You haven\'t unlocked this level yet</string>
+    <string name="musicparam" translatable="false">Music</string>
+    <string name="soundparam" translatable="false">Sound</string>
+    <string name="SelectImage" translatable="false">Select Image</string>
+    <string name="Avaliar">Rate This App</string>
+    <string name="hit">hit</string>
+    <string name="status">Status</string>
+    <string name="NormalVictory">Level completed</string>
+    <string name="checkinternet">please check your internet</string>
+    <string name="total">Total</string>
+    <string name="musicCredits">Musics Credits</string>
+    <string name="CreditsMusic">Music Credits</string>
+    <string name="muscicValuesCredits"> Sakuya3 by PeriTune | http://peritune.com
+Creative Commons Attribution 3.0 Unported License
+https://creativecommons.org/licenses/by/3.0/deed.en_US
+Music promoted by https://www.chosic.com/free-music/all/
+
+Sakuya2 by PeriTune | http://peritune.com
+Creative Commons Attribution 3.0 Unported License
+https://creativecommons.org/licenses/by/3.0/deed.en_US
+Music promoted by https://www.chosic.com/free-music/all/
+    </string>
+    <string name="soundCredits">Sound Credits</string>
+</resources>
